@@ -104,51 +104,57 @@
           <h1>Exclusive <span>deals & discounts</span></h1>
         </header>
         <p class="p">Discover our fantastic early booking discounts<br>& start planning your journey.</p>
+      
+      
+      
+        <div>
+            <section class="deals">
+                <div class="deal-cards">
+                    <!-- Labada sawir ee hadda muuqda -->
+                    <div class="deal-card">
+                        <img id="image-1" src="./Image (1).png" alt="Madrid">
+                        <div class="deal-info">
+                            <div class="rating">
+                                <h2 id="title-1">Madrid</h2>
+                                <span>&#9733;</span>
+                                <span id="rating-1">4.8</span>
+                            </div>
+                            <p class="location" id="location-1">&#128205; Spain</p>
+                            <p class="prices">
+                                <span class="original-price" id="original-price-1">$950</span>
+                                <span class="discounted-price" id="discounted-price-1">$850</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="deal-card">
+                        <img id="image-2" src="./Image (2).png" alt="Firenze">
+                        <div class="deal-info">
+                            <div class="rating">
+                                <h2 id="title-2">Firenze</h2>
+                                <span>&#9733;</span>
+                                <span id="rating-2">4.5</span>
+                            </div>
+                            <p class="location" id="location-2">&#128205; Italy</p>
+                            <p class="prices">
+                                <span class="original-price" id="original-price-2">$850</span>
+                                <span class="discounted-price" id="discounted-price-2">$750</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="navigation-1">
+                <button id="prev" class="nav-arrow left">&#8592;</button>
+                <button id="next" class="nav-arrow right">&#8594;</button>
+            </div>
+        </div>
+
+      
+      </div>
+
     
-        <section class="deals">
-          <div class="deal-card">
-              <img src="./Image (1).png" alt="Madrid">
-              <div class="deal-info">
-                  <div class="rating">
-                      <h2>Madrid</h2>
-                      <span>&#9733;</span>
-                      <span>4.8</span>
-                  </div>
-                  <p class="location">&#128205; Spain</p>
-                  <p class="prices">
-                      <span class="original-price">$950</span>
-                      <span class="discounted-price">$850</span>
-                  </p>
-              </div>
-          </div>
-      
-          <div class="deal-card">
-              <img src="./Image (2).png" alt="Firenze">
-              <div class="deal-info">
-                  <div class="rating">
-                      <h2>Firenze</h2>
-                      <span>&#9733;</span>
-                      <span>4.5</span>
-                  </div>
-                  <p class="location">&#128205; Italy</p>
-                  <p class="prices">
-                      <span class="original-price">$850</span>
-                      <span class="discounted-price">$750</span>
-                  </p>
-                  <button class="book-now">Book Now</button>
-              </div>
-          </div>
-      
-          <!-- More deal cards can go here -->
-      </section>
-      
-      <div class="navigation-1">
-          <button class="nav-arrow left">&#8592;</button>
-          <button class="nav-arrow right">&#8594;</button>
-      </div>
-     
-      
-      </div>
+    
 
 
 
@@ -160,43 +166,42 @@
         <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!</p>
     </div>
 
+   
     <div class="navigation">
-        <button>&larr;</button>
-        <button>&rarr;</button>
+        <button id="left">&larr;</button>
+        <button id="right">&rarr;</button>
     </div>
-
     <div class="card-container">
         <div class="card">
-            <img src="./Image (7).png" alt="London, UK">
-
+            <img id="image-1" src="./Image (7).png" alt="Rome, Italy">
             <div class="card-content">
-                <h3>Rome, Italy</h3>
-                <p class="details">10 Days Trip</p>
-                <p class="price">$5,42k</p>
-                <p class="rating">&#9733; 4.8</p>
+                <h3 id="title-1">Rome, Italy</h3>
+                <p id="details-1" class="details">10 Days Trip</p>
+                <p id="price-1" class="price">$5,42k</p>
+                <p id="rating-1" class="rating">&#9733; 4.8</p>
             </div>
         </div>
-
         <div class="card">
-            <img src="./Image (7).png" alt="London, UK">
+            <img id="image-2" src="./Image (3).png" alt="London, UK">
             <div class="card-content">
-                <h3>London, UK</h3>
-                <p class="details">7 Days Trip</p>
-                <p class="price">$2,42k</p>
-                <p class="rating">&#9733; 4.7</p>
+                <h3 id="title-2">London, UK</h3>
+                <p id="details-2" class="details">7 Days Trip</p>
+                <p id="price-2" class="price">$2,42k</p>
+                <p id="rating-2" class="rating">&#9733; 4.7</p>
             </div>
         </div>
-
         <div class="card">
-            <img src="./Image (5).png" alt="Osaka, Japan">
+            <img id="image-3" src="./Image (4).png" alt="Paris, France">
             <div class="card-content">
-                <h3>Osaka, Japan</h3>
-                <p class="details">10 Days Trip</p>
-                <p class="price">$5,42k</p>
-                <p class="rating">&#9733; 4.8</p>
+                <h3 id="title-3">Paris, France</h3>
+                <p id="details-3" class="details">5 Days Trip</p>
+                <p id="price-3" class="price">$3,12k</p>
+                <p id="rating-3" class="rating">&#9733; 4.6</p>
             </div>
         </div>
     </div>
+    
+    
 
 
 
@@ -204,10 +209,7 @@
         <div class="testimonial-content">
           <h2>What people say <span>about us</span>.</h2>
           <p>Our clients send us a bunch of smiles with our services and we love them.</p>
-          <div class="navigation-1">
-            <button class="nav-arrow left">&#8592;</button>
-            <button class="nav-arrow right">&#8594;</button>
-          </div>
+         
         </div>
         
       
@@ -218,10 +220,7 @@
       </div>
 
 
-      <section class="blog-section">
-        <div class="header">
-            <h1>Get update with <span class="highlight">latest blog</span></h1>
-        </div>
+      <div class="blog-section">
         <div class="blog-container">
             <div class="blog-card">
                 <img src="./Image (4).png" alt="Blog Image 1">
@@ -229,27 +228,23 @@
                 <p>July 27, 2021</p>
             </div>
             <div class="blog-card">
-                <img src="./Image (5).png" alt="Blog Image 2">
+                <img src="./Group (2).png" alt="Blog Image 2">
                 <h3>Travel far enough, you meet yourself</h3>
                 <p>July 27, 2021</p>
             </div>
             <div class="blog-card">
-                <img src="./Image (7).png" alt="Blog Image 3">
+                <img src="./Group (1).png" alt="Blog Image 3">
                 <h3>How to Save Money While Visiting Africa</h3>
-                <p>July 27, 2021</p>
-            </div>
-            <div class="blog-card">
-                <img src="./Image (4).png" alt="Blog Image 4">
-                <h3>Reflections on 5 Months of Travel: Time to Hang</h3>
                 <p>July 27, 2021</p>
             </div>
         </div>
         <div class="carousel-indicators">
-            <span class="indicator active"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
+            <span class="indicator active" data-index="0"></span>
+            <span class="indicator" data-index="1"></span>
+            <span class="indicator" data-index="2"></span>
         </div>
-    </section>
+    </div>
+    
 
 
     <section class="subscribe-section">
